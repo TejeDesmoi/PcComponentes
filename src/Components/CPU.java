@@ -6,6 +6,7 @@ public class CPU {
     String clck_Speed;
     String cores;
     String cache;
+    String tdp;
 
     public String getName() {
         return name;
@@ -55,5 +56,4 @@ public class CPU {
         this.tdp = tdp;
     }
 
-    String tdp;
 }
