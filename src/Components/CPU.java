@@ -7,6 +7,7 @@ public class CPU {
     String cores;
     String cache;
     String tdp;
+    String  price;
 
     public String getName() {
         return name;
@@ -56,4 +57,11 @@ public class CPU {
         this.tdp = tdp;
     }
 
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
 }

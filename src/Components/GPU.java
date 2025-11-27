@@ -6,6 +6,7 @@ public class GPU {
     String vram;
     String memoryType;
     String memoryBandWidth;
+    String price;
 
     public String getName() {
         return name;
@@ -47,5 +48,11 @@ public class GPU {
         this.memoryBandWidth = memoryBandWidth;
     }
 
+    public String getPrice() {
+        return price;
+    }
 
+    public void setPrice(String price) {
+        this.price = price;
+    }
 }
